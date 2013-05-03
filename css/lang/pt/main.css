@@ -1,0 +1,34 @@
+
+
+
+#background { background:url('../../../images/pt/common/loading.png') no-repeat center center, #000;}
+.error #background { background:url('../../../images/pt/common/loading-error.png') no-repeat center center, #000;}
+    
+
+#moztab {height:49px;width:118px;position:fixed;top:0;right:15%;background:url('../../../images/pt/1/spritesheet.png') no-repeat -229px -204px;display:block;}
+
+
+@media screen and (min-width: 1501px) {
+	    
+	    .upscaled #logo, .upscaled #logosparks, .upscaled .left-ornament, .upscaled .right-ornament, .upscaled #character, .upscaled #character div, .upscaled .button, .upscaled .button div, .upscaled #respawn, .upscaled #scroll, .upscaled #instructions, .upscaled .icon, .upscaled #tilt, .upscaled .parchment-left, .upscaled .parchment-middle, .upscaled .parchment-right, .upscaled .avatar, .upscaled .facebook, .upscaled .twitter, .upscaled .close, .upscaled .ribbon .top, .upscaled .ribbon .bottom, .upscaled #about .img, .upscaled .ext-link {background-image:url('../../../images/pt/3/spritesheet.png');}
+}
+
+@media screen and (max-width: 1500px) {
+
+	    .upscaled #logo, .upscaled #logosparks, .upscaled .left-ornament, .upscaled .right-ornament, .upscaled #character, .upscaled #character div, .upscaled .button, .upscaled .button div, .upscaled #respawn, .upscaled #scroll, .upscaled #instructions, .upscaled .icon, .upscaled #tilt, .upscaled .parchment-left, .upscaled .parchment-middle, .upscaled .parchment-right, .upscaled .avatar, .upscaled .facebook, .upscaled .twitter, .upscaled .close, .upscaled .ribbon .top, .upscaled .ribbon .bottom, .upscaled #about .img, .upscaled .ext-link {background-image:url('../../../images/pt/2/spritesheet.png');}
+}
+
+@media screen and (max-height: 870px) {
+
+	    .upscaled #logo, .upscaled #logosparks, .upscaled .left-ornament, .upscaled .right-ornament, .upscaled #character, .upscaled #character div, .upscaled .button, .upscaled .button div, .upscaled #respawn, .upscaled #scroll, .upscaled #instructions, .upscaled .icon, .upscaled #tilt, .upscaled .parchment-left, .upscaled .parchment-middle, .upscaled .parchment-right, .upscaled .avatar, .upscaled .facebook, .upscaled .twitter, .upscaled .close, .upscaled .ribbon .top, .upscaled .ribbon .bottom, .upscaled #about .img, .upscaled .ext-link {background-image:url('../../../images/pt/2/spritesheet.png');}
+}
+
+@media screen and (max-width: 800px) {
+
+        .game.about #parchment {display:block;left:50%;background:url('../../../images/pt/1/spritesheet.png') no-repeat 0 -527px;height:172px;width:417px;top:50%;margin-left:-208px;margin-top:-98px;position:absolute;}
+        
+        .game.death #parchment {background:url('../../../images/pt/1/spritesheet.png') 0 -294px;height:182px;width:422px;position:absolute;top:50%;left:50%;margin-top:-91px;margin-left:-211px;}
+        
+		.game.death #death {height:172px;width:417px;margin-left:-208px;margin-top:-93px;color:#373737;background:url('../../../images/pt/1/spritesheet.png') 0 -527px;margin:-10px 0 0 0;}
+
+}
